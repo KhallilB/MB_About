@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './About.css';
+import { NavLink } from ''
 
 import Navbar from '../../components/navbar/Navbar';
 
