@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const StyledAbout = styled.div `
+const StyledNavbar = styled.nav`
     background-color: #FFF;
 `
 
-export default StyledAbout;
+export default StyledNavbar;

@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, BrowserRouter as Router} from 'react-router-dom'
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-import About from './containers/about/About';
+import routing from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <About />
+    {routing}
   </React.StrictMode>,
   document.getElementById('root')
 );
